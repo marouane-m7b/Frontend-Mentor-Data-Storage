@@ -47,12 +47,19 @@ body {
 }
 .container .side-1,
 .container .side-2 {
-  background-color: var(--Very-Dark-Blue);
+  background-color: var(--Dark-Blue);
   max-width: 400px;
 }
 @media (min-width: 767px) {
   .container .side-2 {
     min-width: 40%;
+  }
+  .container .side-1 {
+    height: 200px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 }
 .container .side-1 {
